@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
 <testsuites xmlns="http://check.sourceforge.net/ns">
-  <datetime>2016-06-03 09:28:02</datetime>
+  <datetime>2016-06-03 09:28:43</datetime>
   <suite>
     <title>Money</title>
     <test result="success">
@@ -9,7 +9,7 @@
       <fn>example.c:6</fn>
       <id>test1</id>
       <iteration>0</iteration>
-      <duration>0.000018</duration>
+      <duration>0.000017</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
@@ -18,7 +18,7 @@
       <fn>example.c:12</fn>
       <id>test2</id>
       <iteration>0</iteration>
-      <duration>0.000017</duration>
+      <duration>0.000014</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
@@ -27,7 +27,7 @@
       <fn>example.c:18</fn>
       <id>test3</id>
       <iteration>0</iteration>
-      <duration>0.000017</duration>
+      <duration>0.000013</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
@@ -45,7 +45,7 @@
       <fn>example.c:30</fn>
       <id>test5</id>
       <iteration>0</iteration>
-      <duration>0.000020</duration>
+      <duration>0.000019</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
@@ -54,7 +54,7 @@
       <fn>example.c:36</fn>
       <id>test6</id>
       <iteration>0</iteration>
-      <duration>0.000017</duration>
+      <duration>0.000015</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
@@ -63,7 +63,7 @@
       <fn>example.c:42</fn>
       <id>test7</id>
       <iteration>0</iteration>
-      <duration>0.000017</duration>
+      <duration>0.000015</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
@@ -72,55 +72,55 @@
       <fn>example.c:48</fn>
       <id>test8</id>
       <iteration>0</iteration>
-      <duration>0.000020</duration>
+      <duration>0.000018</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
-    <test result="success">
+    <test result="failure">
       <path>.</path>
       <fn>example.c:54</fn>
       <id>test9</id>
       <iteration>0</iteration>
-      <duration>0.000017</duration>
+      <duration>-1.000000</duration>
       <description>Core</description>
-      <message>Passed</message>
+      <message>Assertion &apos;5 == 6&apos; failed: 5 == 5, 6 == 6</message>
     </test>
     <test result="success">
       <path>.</path>
       <fn>example.c:60</fn>
       <id>test10</id>
       <iteration>0</iteration>
-      <duration>0.000017</duration>
+      <duration>0.000018</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
-    <test result="success">
+    <test result="failure">
       <path>.</path>
       <fn>example.c:66</fn>
       <id>test11</id>
       <iteration>0</iteration>
-      <duration>0.000015</duration>
+      <duration>-1.000000</duration>
       <description>Core</description>
-      <message>Passed</message>
+      <message>Assertion &apos;5 == 6&apos; failed: 5 == 5, 6 == 6</message>
     </test>
     <test result="success">
       <path>.</path>
       <fn>example.c:72</fn>
       <id>test12</id>
       <iteration>0</iteration>
-      <duration>0.000015</duration>
+      <duration>0.000013</duration>
       <description>Core</description>
       <message>Passed</message>
     </test>
-    <test result="success">
+    <test result="failure">
       <path>.</path>
       <fn>example.c:78</fn>
       <id>test13</id>
       <iteration>0</iteration>
-      <duration>0.000017</duration>
+      <duration>-1.000000</duration>
       <description>Core</description>
-      <message>Passed</message>
+      <message>Assertion &apos;5 == 6&apos; failed: 5 == 5, 6 == 6</message>
     </test>
   </suite>
-  <duration>0.005661</duration>
+  <duration>0.005855</duration>
 </testsuites>
