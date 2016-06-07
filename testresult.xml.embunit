@@ -23,9 +23,6 @@
 </Location>
 <Message>exp 1 was -1</Message>
 </FailedTest>
-<Test id="155">
-<Name>testClr155</Name>
-</Test>
 <Test id="5">
 <Name>testClr</Name>
 </Test>
