@@ -9,4 +9,8 @@
      <testcase classname="test.TestProductionCode" name="test_FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed">
             <failure type="ASSERT FAILED">  Expected 0x00001234 Was 0x00005A5A at line: 61 </failure>
      </testcase>
+     <testcase classname="test.TestProduction2Code" name="test_Function2WhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed">
+            <failure type="ASSERT FAILED">  Expected 0x00051234 Was 0xDEADBEEF at line: 47 </failure>
+     </testcase>
+
 </testsuite>
