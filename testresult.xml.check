@@ -31,6 +31,15 @@
       <description>Core</description>
       <message>Passed</message>
     </test>
+    <test result="success">
+      <path>.</path>
+      <fn>example.c:2</fn>
+      <id>test33</id>
+      <iteration>0</iteration>
+      <duration>0.000013</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
     <test result="failure">
       <path>.</path>
       <fn>example.c:24</fn>
