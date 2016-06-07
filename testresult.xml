@@ -7,49 +7,76 @@
 <Test id="2">
 <Name>testSetValue</Name>
 </Test>
-<Test id="3">
+<FailedTest id="3">
 <Name>testInc</Name>
-</Test>
-<Test id="4">
+<Location>
+<File>counterTest.c</File>
+<Line>33</Line>
+</Location>
+<Message>exp 5 was 1</Message>
+</FailedTest>
+<FailedTest id="4">
 <Name>testDec</Name>
-</Test>
+<Location>
+<File>counterTest.c</File>
+<Line>42</Line>
+</Location>
+<Message>exp 1 was -1</Message>
+</FailedTest>
 <Test id="5">
 <Name>testClr</Name>
 </Test>
+<FailedTest id="6">
+<Name>testInc2</Name>
+<Location>
+<File>counterTest.c</File>
+<Line>60</Line>
+</Location>
+<Message>exp 5 was 1</Message>
+</FailedTest>
+<FailedTest id="7">
+<Name>testDec2</Name>
+<Location>
+<File>counterTest.c</File>
+<Line>69</Line>
+</Location>
+<Message>exp 1 was -1</Message>
+</FailedTest>
+<Test id="8">
+<Name>testClr2</Name>
+</Test>
 </CounterTest>
 <PersonTest>
-<Test id="6">
+<Test id="9">
 <Name>testfullname</Name>
 </Test>
-<Test id="7">
+<Test id="10">
 <Name>testfirstname</Name>
 </Test>
-<Test id="8">
+<Test id="11">
 <Name>testlastname</Name>
 </Test>
-<Test id="9">
+<Test id="12">
 <Name>testsetfullname</Name>
 </Test>
-<Test id="10">
+<Test id="13">
 <Name>testsetfirstname</Name>
 </Test>
-<Test id="11">
+<Test id="14">
 <Name>testsetlastname</Name>
 </Test>
-<Test id="12">
+<Test id="15">
 <Name>testnullcharfullname</Name>
 </Test>
-<Test id="13">
+<Test id="16">
 <Name>testnullpointerfullname</Name>
 </Test>
-<Test id="14">
+<Test id="17">
 <Name>testnosepfullname</Name>
-</Test>
-<Test id="15">
-<Name>testnullpointerfullname2</Name>
 </Test>
 </PersonTest>
 <Statistics>
-<Tests>14</Tests>
+<Tests>17</Tests>
+<Failures>4</Failures>
 </Statistics>
 </TestRun>
