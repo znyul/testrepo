@@ -1,16 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite tests="5" failures="2" skips="0">
-     <testcase classname="test.TestProductionCode" name="test_FindFunction_WhichIsBroken_ShouldReturnZeroIfItemIsNotInList_WhichWorksEvenInOurBrokenCode"/>
-     <testcase classname="test.TestProductionCode" name="test_FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInList_WhichWillFailBecauseOurFunctionUnderTestIsBroken">
-            <failure type="ASSERT FAILED">  Expected 1 Was 0 at line: 33 </failure>
-     </testcase>
-     <testcase classname="test.TestProductionCode" name="test_FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue"/>
-     <testcase classname="test.TestProductionCode" name="test_FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValueAgain"/>
-     <testcase classname="test.TestProductionCode" name="test_FunctionWhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed">
-            <failure type="ASSERT FAILED">  Expected 0x00001234 Was 0x00005A5A at line: 61 </failure>
-     </testcase>
-     <testcase classname="test.TestProduction2Code" name="test_Function2WhichReturnsLocalVariable_ShouldReturnCurrentCounter_ButFailsBecauseThisTestIsActuallyFlawed">
-            <failure type="ASSERT FAILED">  Expected 0x00051234 Was 0xDEADBEEF at line: 47 </failure>
-     </testcase>
-
-</testsuite>
+<?xml version="1.0" encoding='shift_jis' standalone='yes' ?>
+<TestRun>
+<CounterTest>
+<Test id="1">
+<Name>testInit</Name>
+</Test>
+<Test id="2">
+<Name>testSetValue</Name>
+</Test>
+<Test id="3">
+<Name>testInc</Name>
+</Test>
+<Test id="4">
+<Name>testDec</Name>
+</Test>
+<Test id="5">
+<Name>testClr</Name>
+</Test>
+</CounterTest>
+<PersonTest>
+<Test id="6">
+<Name>testfullname</Name>
+</Test>
+<Test id="7">
+<Name>testfirstname</Name>
+</Test>
+<Test id="8">
+<Name>testlastname</Name>
+</Test>
+<Test id="9">
+<Name>testsetfullname</Name>
+</Test>
+<Test id="10">
+<Name>testsetfirstname</Name>
+</Test>
+<Test id="11">
+<Name>testsetlastname</Name>
+</Test>
+<Test id="12">
+<Name>testnullcharfullname</Name>
+</Test>
+<Test id="13">
+<Name>testnullpointerfullname</Name>
+</Test>
+<Test id="14">
+<Name>testnosepfullname</Name>
+</Test>
+</PersonTest>
+<Statistics>
+<Tests>14</Tests>
+</Statistics>
+</TestRun>
