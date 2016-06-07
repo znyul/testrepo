@@ -45,6 +45,9 @@
 <Test id="14">
 <Name>testnosepfullname</Name>
 </Test>
+<Test id="15">
+<Name>testnullpointerfullname2</Name>
+</Test>
 </PersonTest>
 <Statistics>
 <Tests>14</Tests>
