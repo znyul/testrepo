@@ -24,6 +24,15 @@
     </test>
     <test result="success">
       <path>.</path>
+      <fn>example.c:12</fn>
+      <id>test27</id>
+      <iteration>0</iteration>
+      <duration>0.000014</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
       <fn>example.c:18</fn>
       <id>test3</id>
       <iteration>0</iteration>
