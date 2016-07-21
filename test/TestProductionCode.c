@@ -43,7 +43,7 @@ TEST(ProductionCode, FindFunction_WhichIsBroken_ShouldReturnTheIndexForItemsInLi
 TEST(ProductionCode, FunctionWhichReturnsLocalVariable_ShouldReturnTheCurrentCounterValue)
 {
     //This should be true because setUp set this up for us before this test
-    TEST_ASSERT_EQUAL_HEX(0x5a5a, FunctionWhichReturnsLocalVariable());
+    TEST_ASSERT_EQUAL_HEX(0x5a5b, FunctionWhichReturnsLocalVariable());
 
     //This should be true because we can still change our answer
     Counter = 0x1234;
